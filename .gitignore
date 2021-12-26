@@ -1,32 +1,40 @@
-# Prerequisites
-*.d
+HELP.md
+.DS_Store
+*.DS_Store
+*/.DS_Store
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+*.DS_Store
+/*.DS_Store
 
-# Precompiled Headers
-*.gch
-*.pch
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
-# Fortran module files
-*.mod
-*.smod
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
 
-# Executables
-*.exe
-*.out
-*.app
+### VS Code ###
+.vscode/
