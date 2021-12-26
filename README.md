@@ -118,7 +118,7 @@ const bool slowMove = true;
 ```
 
 ### Configuration of the open and close range for the servo moter 
-> use the callibration application "servo-turnout-calibration" for the finding the open and close range 
+> use the callibration application "servo-turnout-calibration" for the finding the open and close range present in example 
 > for the each servo and feed in the array board wise for each pin 
 
 ```
