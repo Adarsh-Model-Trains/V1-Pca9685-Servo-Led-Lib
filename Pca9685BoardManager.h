@@ -16,6 +16,21 @@ struct BoardPin {
   int boardPin;
   bool processed;
 };
+#define T 'T'
+#define L 'L'
+#define S 'S'
+#define ON "ON"
+#define OFF "OF"
+#define PWM_LIGHT_FREQUENCY 1000
+#define PWM_TURNOUT_FREQUENCY 50 
+#define DELAY_TIME 200
+#define F0 0
+#define F4096 4096
+#define LED_ON " LED ON\n"
+#define LED_OFF " LED OFF\n"
+#define TURNOUT_THROW "TURNOUT THROW\n"
+#define TURNOUT_CLOSE "TURNOUT CLOSE\n"
+#define BOARDS_CONFIG "BOARD NUMBER EXCEEDED THE NO OF BOARD CONFIGURED"
 
 class Pca9685BoardManager {
 
